@@ -1,0 +1,20 @@
+{application, couch_npm_cache, [
+    {description, "cache npm tarballs in memory"},
+    {vsn, git},
+    {mod, {couch_npm_cache_app, []}},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        crypto,
+        asn1,
+        public_key,
+        ssl,
+        ranch,
+        cowlib,
+        cowboy,
+        sasl,
+        ibrowse,
+        couchbeam
+    ]}
+]}.
